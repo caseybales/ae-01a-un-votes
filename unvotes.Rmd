@@ -49,7 +49,7 @@ the [Appendix](#appendix) for a list of the countries in the data.
 
 ```{r plot-yearly-yes-issue, fig.width=10, fig.height=6, message=FALSE}
 unvotes %>%
-  filter(country %in% c("UK & NI", "US", "Australia")) %>%
+  filter(country %in% c("UK & NI", "Japan", "Spain")) %>%
   mutate(year = year(date)) %>%
   group_by(country, year, issue) %>%
   summarize(percent_yes = mean(vote == "yes")) %>%
