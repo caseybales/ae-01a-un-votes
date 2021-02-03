@@ -1,7 +1,7 @@
 ---
 title: "UN Votes"
-author: "YOU"
-date: "`r Sys.Date()`"
+author: "Casey Bales"
+date: "2.3.21"
 output: 
   html_document: 
     toc: yes
